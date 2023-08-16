@@ -1,0 +1,10 @@
+<table data-sly-use.mytable="com.myaem.core.models.MatixGenerator" border="1">
+    <tr data-sly-list.getValue="${mytable.items}">
+        Input val : ${getValue.inputValue}
+        <td data-sly-list.myClass="${getValue.newNum}">
+            Name ${myClass.name}
+            Coleage ${myClass.colleage}
+            Class ${myClass.class}
+        </td>
+        </tr>
+</table>

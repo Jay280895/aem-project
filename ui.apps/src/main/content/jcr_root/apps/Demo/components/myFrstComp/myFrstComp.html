@@ -1,0 +1,14 @@
+
+<div class="" data-cmp-is="myFrstComp">
+    <h2 class="">My First Component</h2>
+    <div class="" data-sly-test="${properties.myFrstComp}">
+        <p class="">Text property:</p>
+        <pre class="" data-cmp-hook-myFrstComp="property">${properties.myFrstComp}</pre>
+    </div>
+    <div class="" data-sly-use.model="com.myaem.core.models.MyFrstComp" data-sly-test="${model.message}">
+        <p class="">Model message:</p>
+        <pre class=""data-cmp-hook-myFrstComp="model">${model.myFrstComp}</pre>
+        <pre class=""data-cmp-hook-myFrstComp="model">${model.searchPath}</pre>
+        <pre class=""data-cmp-hook-myFrstComp="model">${model.message}</pre>
+    </div>
+</div>
