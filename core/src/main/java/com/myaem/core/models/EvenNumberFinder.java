@@ -6,7 +6,6 @@ import com.myaem.core.services.EmployeeDetails;
 import com.myaem.core.services.impl.DemoServiceImpl;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.*;
-import org.apache.sling.models.annotations.injectorspecific.ChildResource;
 import org.apache.sling.models.annotations.injectorspecific.OSGiService;
 import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 
