@@ -1,0 +1,15 @@
+<footer class="blog-footer" data-sly-use.footer="com.myaem.core.models.HomePageFooter">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 ">
+            <div class="footer__block">
+                <div data-sly-list.data="${footer.items}">
+                    <a target="_blank" href="${data.footerLink}"
+                           aria-label="PwC office locations">${data.footerText}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>©2023 Monks Digital. All rights reserved.</p>
+</footer>
+

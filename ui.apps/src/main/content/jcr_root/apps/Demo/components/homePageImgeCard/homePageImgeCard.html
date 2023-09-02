@@ -1,9 +1,9 @@
-<sly data-sly-use.blogImg="com.myaem.core.models.HomePageImgeCard">
-<div class="row mb-2">
-        <div class="col-md-4" data-sly-list.elements="${blogImg.blogListing}">
+<div data-sly-use.blogImg="com.myaem.core.models.HomePageImgeCard">
+    <div class="row mb-2" data-sly-list.elements="${blogImg.blogListing}">
+        <div class="col-md-4" >
             <div class="card flex-md-row mb-4 shadow-sm h-md-400">
                 <div class="card-body d-flex flex-column align-items-start">
-                    <img width="150" height="320" class="card-img-right flex-auto d-none d-lg-block"
+                    <img style="width: 320px; height: 150px;" class="card-img-right flex-auto d-none d-lg-block"
                          src="${elements.teaserImage}" alt="Card image cap">
                     <strong class="d-inline-block mb-2 text-success">${elements.teaserHeading}</strong>
                     <h3 class="mb-0">
@@ -16,4 +16,7 @@
             </div>
         </div>
     </div>
+</div>
 </sly>
+<script src="assets/js/vendor/holder.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
